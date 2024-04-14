@@ -14,7 +14,7 @@ import Pages.productsPage;
 import utils.ReadData;
 
 
-public class Shopping extends BaseTest{    // this is a pull request
+public class Shopping extends BaseTest{   
 			
 		@Test
 		public void ShopABag() throws IOException {		
