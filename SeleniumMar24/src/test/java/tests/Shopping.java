@@ -16,7 +16,7 @@ import utils.ReadData;
 
 public class Shopping extends BaseTest{
 			
-		@Test(enabled=false)
+		@Test
 		public void ShopABag() throws IOException {		
 		new loginPage(driver).enterUsername(new ReadData().getUsername());
 		new loginPage(driver).enterPassword(new ReadData().getPassword());
